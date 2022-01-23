@@ -7,44 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F010D8C9279D12D7003D00CD /* Gesture_Tapgusture.swift in Sources */ = {isa = PBXBuildFile; fileRef = F010D8C8279D12D7003D00CD /* Gesture_Tapgusture.swift */; };
-		F0307DD4279C47580074B5ED /* Multiselection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0307DD3279C47580074B5ED /* Multiselection.swift */; };
-		F0307DD6279D0CFD0074B5ED /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0307DD5279D0CFD0074B5ED /* NavigationView.swift */; };
-		F041A679279C31190009EB5E /* slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F041A678279C31190009EB5E /* slider.swift */; };
-		F041A67B279C35130009EB5E /* MagicText.swift in Sources */ = {isa = PBXBuildFile; fileRef = F041A67A279C35130009EB5E /* MagicText.swift */; };
-		F041A67D279C38630009EB5E /* MagicList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F041A67C279C38630009EB5E /* MagicList.swift */; };
-		F041A67F279C39F10009EB5E /* MagicDynamicList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F041A67E279C39F10009EB5E /* MagicDynamicList.swift */; };
-		F041A683279C404B0009EB5E /* SingleSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F041A682279C404B0009EB5E /* SingleSelection.swift */; };
-		F041A685279C414B0009EB5E /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = F041A684279C414B0009EB5E /* Product.swift */; };
-		F041A687279C42950009EB5E /* AppleProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F041A686279C42950009EB5E /* AppleProduct.swift */; };
-		F0F7977D279C169A00042111 /* HelloWsiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7977C279C169A00042111 /* HelloWsiftUIApp.swift */; };
-		F0F7977F279C169A00042111 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7977E279C169A00042111 /* ContentView.swift */; };
-		F0F79781279C169C00042111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0F79780279C169C00042111 /* Assets.xcassets */; };
-		F0F79784279C169C00042111 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0F79783279C169C00042111 /* Preview Assets.xcassets */; };
-		F0F7978B279C1AAB00042111 /* ViewStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7978A279C1AAB00042111 /* ViewStack.swift */; };
+		F010D8D7279D8300003D00CD /* ExampleProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F010D8D6279D8300003D00CD /* ExampleProjectApp.swift */; };
+		F010D8D9279D8300003D00CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F010D8D8279D8300003D00CD /* ContentView.swift */; };
+		F010D8DB279D8302003D00CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F010D8DA279D8302003D00CD /* Assets.xcassets */; };
+		F010D8DE279D8302003D00CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F010D8DD279D8302003D00CD /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F010D8C8279D12D7003D00CD /* Gesture_Tapgusture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gesture_Tapgusture.swift; sourceTree = "<group>"; };
-		F0307DD3279C47580074B5ED /* Multiselection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiselection.swift; sourceTree = "<group>"; };
-		F0307DD5279D0CFD0074B5ED /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
-		F041A678279C31190009EB5E /* slider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slider.swift; sourceTree = "<group>"; };
-		F041A67A279C35130009EB5E /* MagicText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicText.swift; sourceTree = "<group>"; };
-		F041A67C279C38630009EB5E /* MagicList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicList.swift; sourceTree = "<group>"; };
-		F041A67E279C39F10009EB5E /* MagicDynamicList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicDynamicList.swift; sourceTree = "<group>"; };
-		F041A682279C404B0009EB5E /* SingleSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleSelection.swift; sourceTree = "<group>"; };
-		F041A684279C414B0009EB5E /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
-		F041A686279C42950009EB5E /* AppleProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleProduct.swift; sourceTree = "<group>"; };
-		F0F79779279C169A00042111 /* HelloWsiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWsiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0F7977C279C169A00042111 /* HelloWsiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWsiftUIApp.swift; sourceTree = "<group>"; };
-		F0F7977E279C169A00042111 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F0F79780279C169C00042111 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F0F79783279C169C00042111 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F0F7978A279C1AAB00042111 /* ViewStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewStack.swift; sourceTree = "<group>"; };
+		F010D8D3279D8300003D00CD /* ExampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F010D8D6279D8300003D00CD /* ExampleProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleProjectApp.swift; sourceTree = "<group>"; };
+		F010D8D8279D8300003D00CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F010D8DA279D8302003D00CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F010D8DD279D8302003D00CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F0F79776279C169A00042111 /* Frameworks */ = {
+		F010D8D0279D8300003D00CD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -54,48 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F0F79770279C169A00042111 = {
+		F010D8CA279D8300003D00CD = {
 			isa = PBXGroup;
 			children = (
-				F0F7977B279C169A00042111 /* HelloWsiftUI */,
-				F0F7977A279C169A00042111 /* Products */,
+				F010D8D5279D8300003D00CD /* ExampleProject */,
+				F010D8D4279D8300003D00CD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F0F7977A279C169A00042111 /* Products */ = {
+		F010D8D4279D8300003D00CD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F0F79779279C169A00042111 /* HelloWsiftUI.app */,
+				F010D8D3279D8300003D00CD /* ExampleProject.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F0F7977B279C169A00042111 /* HelloWsiftUI */ = {
+		F010D8D5279D8300003D00CD /* ExampleProject */ = {
 			isa = PBXGroup;
 			children = (
-				F010D8C8279D12D7003D00CD /* Gesture_Tapgusture.swift */,
-				F0307DD5279D0CFD0074B5ED /* NavigationView.swift */,
-				F0307DD3279C47580074B5ED /* Multiselection.swift */,
-				F041A686279C42950009EB5E /* AppleProduct.swift */,
-				F041A684279C414B0009EB5E /* Product.swift */,
-				F041A67E279C39F10009EB5E /* MagicDynamicList.swift */,
-				F041A682279C404B0009EB5E /* SingleSelection.swift */,
-				F041A67C279C38630009EB5E /* MagicList.swift */,
-				F041A67A279C35130009EB5E /* MagicText.swift */,
-				F041A678279C31190009EB5E /* slider.swift */,
-				F0F7977C279C169A00042111 /* HelloWsiftUIApp.swift */,
-				F0F7977E279C169A00042111 /* ContentView.swift */,
-				F0F7978A279C1AAB00042111 /* ViewStack.swift */,
-				F0F79780279C169C00042111 /* Assets.xcassets */,
-				F0F79782279C169C00042111 /* Preview Content */,
+				F010D8D6279D8300003D00CD /* ExampleProjectApp.swift */,
+				F010D8D8279D8300003D00CD /* ContentView.swift */,
+				F010D8DA279D8302003D00CD /* Assets.xcassets */,
+				F010D8DC279D8302003D00CD /* Preview Content */,
 			);
-			path = HelloWsiftUI;
+			path = ExampleProject;
 			sourceTree = "<group>";
 		};
-		F0F79782279C169C00042111 /* Preview Content */ = {
+		F010D8DC279D8302003D00CD /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				F0F79783279C169C00042111 /* Preview Assets.xcassets */,
+				F010D8DD279D8302003D00CD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -103,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F0F79778279C169A00042111 /* HelloWsiftUI */ = {
+		F010D8D2279D8300003D00CD /* ExampleProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F0F79787279C169C00042111 /* Build configuration list for PBXNativeTarget "HelloWsiftUI" */;
+			buildConfigurationList = F010D8E1279D8302003D00CD /* Build configuration list for PBXNativeTarget "ExampleProject" */;
 			buildPhases = (
-				F0F79775279C169A00042111 /* Sources */,
-				F0F79776279C169A00042111 /* Frameworks */,
-				F0F79777279C169A00042111 /* Resources */,
+				F010D8CF279D8300003D00CD /* Sources */,
+				F010D8D0279D8300003D00CD /* Frameworks */,
+				F010D8D1279D8300003D00CD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = HelloWsiftUI;
-			productName = HelloWsiftUI;
-			productReference = F0F79779279C169A00042111 /* HelloWsiftUI.app */;
+			name = ExampleProject;
+			productName = ExampleProject;
+			productReference = F010D8D3279D8300003D00CD /* ExampleProject.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F0F79771279C169A00042111 /* Project object */ = {
+		F010D8CB279D8300003D00CD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					F0F79778279C169A00042111 = {
+					F010D8D2279D8300003D00CD = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = F0F79774279C169A00042111 /* Build configuration list for PBXProject "HelloWsiftUI" */;
+			buildConfigurationList = F010D8CE279D8300003D00CD /* Build configuration list for PBXProject "ExampleProject" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -143,53 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = F0F79770279C169A00042111;
-			productRefGroup = F0F7977A279C169A00042111 /* Products */;
+			mainGroup = F010D8CA279D8300003D00CD;
+			productRefGroup = F010D8D4279D8300003D00CD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F0F79778279C169A00042111 /* HelloWsiftUI */,
+				F010D8D2279D8300003D00CD /* ExampleProject */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F0F79777279C169A00042111 /* Resources */ = {
+		F010D8D1279D8300003D00CD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0F79784279C169C00042111 /* Preview Assets.xcassets in Resources */,
-				F0F79781279C169C00042111 /* Assets.xcassets in Resources */,
+				F010D8DE279D8302003D00CD /* Preview Assets.xcassets in Resources */,
+				F010D8DB279D8302003D00CD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F0F79775279C169A00042111 /* Sources */ = {
+		F010D8CF279D8300003D00CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F041A683279C404B0009EB5E /* SingleSelection.swift in Sources */,
-				F0F7977F279C169A00042111 /* ContentView.swift in Sources */,
-				F041A685279C414B0009EB5E /* Product.swift in Sources */,
-				F041A67F279C39F10009EB5E /* MagicDynamicList.swift in Sources */,
-				F041A687279C42950009EB5E /* AppleProduct.swift in Sources */,
-				F010D8C9279D12D7003D00CD /* Gesture_Tapgusture.swift in Sources */,
-				F0F7978B279C1AAB00042111 /* ViewStack.swift in Sources */,
-				F041A679279C31190009EB5E /* slider.swift in Sources */,
-				F041A67D279C38630009EB5E /* MagicList.swift in Sources */,
-				F041A67B279C35130009EB5E /* MagicText.swift in Sources */,
-				F0F7977D279C169A00042111 /* HelloWsiftUIApp.swift in Sources */,
-				F0307DD6279D0CFD0074B5ED /* NavigationView.swift in Sources */,
-				F0307DD4279C47580074B5ED /* Multiselection.swift in Sources */,
+				F010D8D9279D8300003D00CD /* ContentView.swift in Sources */,
+				F010D8D7279D8300003D00CD /* ExampleProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F0F79785279C169C00042111 /* Debug */ = {
+		F010D8DF279D8302003D00CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -250,7 +206,7 @@
 			};
 			name = Debug;
 		};
-		F0F79786279C169C00042111 /* Release */ = {
+		F010D8E0279D8302003D00CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -305,14 +261,14 @@
 			};
 			name = Release;
 		};
-		F0F79788279C169C00042111 /* Debug */ = {
+		F010D8E2279D8302003D00CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HelloWsiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ExampleProject/Preview Content\"";
 				DEVELOPMENT_TEAM = LZ887YG4E9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -326,7 +282,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = chuljin.HelloWsiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = "chuljin-Hwang.ExampleProject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -334,14 +290,14 @@
 			};
 			name = Debug;
 		};
-		F0F79789279C169C00042111 /* Release */ = {
+		F010D8E3279D8302003D00CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HelloWsiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ExampleProject/Preview Content\"";
 				DEVELOPMENT_TEAM = LZ887YG4E9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -355,7 +311,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = chuljin.HelloWsiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = "chuljin-Hwang.ExampleProject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -366,25 +322,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F0F79774279C169A00042111 /* Build configuration list for PBXProject "HelloWsiftUI" */ = {
+		F010D8CE279D8300003D00CD /* Build configuration list for PBXProject "ExampleProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F0F79785279C169C00042111 /* Debug */,
-				F0F79786279C169C00042111 /* Release */,
+				F010D8DF279D8302003D00CD /* Debug */,
+				F010D8E0279D8302003D00CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F0F79787279C169C00042111 /* Build configuration list for PBXNativeTarget "HelloWsiftUI" */ = {
+		F010D8E1279D8302003D00CD /* Build configuration list for PBXNativeTarget "ExampleProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F0F79788279C169C00042111 /* Debug */,
-				F0F79789279C169C00042111 /* Release */,
+				F010D8E2279D8302003D00CD /* Debug */,
+				F010D8E3279D8302003D00CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F0F79771279C169A00042111 /* Project object */;
+	rootObject = F010D8CB279D8300003D00CD /* Project object */;
 }
