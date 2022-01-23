@@ -7,22 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F010D8D7279D8300003D00CD /* ExampleProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F010D8D6279D8300003D00CD /* ExampleProjectApp.swift */; };
-		F010D8D9279D8300003D00CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F010D8D8279D8300003D00CD /* ContentView.swift */; };
-		F010D8DB279D8302003D00CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F010D8DA279D8302003D00CD /* Assets.xcassets */; };
-		F010D8DE279D8302003D00CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F010D8DD279D8302003D00CD /* Preview Assets.xcassets */; };
+		F010D8F1279D882B003D00CD /* Quote_GeneratorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F010D8F0279D882B003D00CD /* Quote_GeneratorApp.swift */; };
+		F010D8F3279D882B003D00CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F010D8F2279D882B003D00CD /* ContentView.swift */; };
+		F010D8F5279D882D003D00CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F010D8F4279D882D003D00CD /* Assets.xcassets */; };
+		F010D8F8279D882D003D00CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F010D8F7279D882D003D00CD /* Preview Assets.xcassets */; };
+		F010D8FF279D8F3B003D00CD /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = F010D8FE279D8F3B003D00CD /* Quote.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F010D8D3279D8300003D00CD /* ExampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F010D8D6279D8300003D00CD /* ExampleProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleProjectApp.swift; sourceTree = "<group>"; };
-		F010D8D8279D8300003D00CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F010D8DA279D8302003D00CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F010D8DD279D8302003D00CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F010D8ED279D882B003D00CD /* Quote Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quote Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F010D8F0279D882B003D00CD /* Quote_GeneratorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote_GeneratorApp.swift; sourceTree = "<group>"; };
+		F010D8F2279D882B003D00CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F010D8F4279D882D003D00CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F010D8F7279D882D003D00CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F010D8FE279D8F3B003D00CD /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F010D8D0279D8300003D00CD /* Frameworks */ = {
+		F010D8EA279D882B003D00CD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +34,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F010D8CA279D8300003D00CD = {
+		F010D8E4279D882B003D00CD = {
 			isa = PBXGroup;
 			children = (
-				F010D8D5279D8300003D00CD /* ExampleProject */,
-				F010D8D4279D8300003D00CD /* Products */,
+				F010D8EF279D882B003D00CD /* Quote Generator */,
+				F010D8EE279D882B003D00CD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F010D8D4279D8300003D00CD /* Products */ = {
+		F010D8EE279D882B003D00CD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F010D8D3279D8300003D00CD /* ExampleProject.app */,
+				F010D8ED279D882B003D00CD /* Quote Generator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F010D8D5279D8300003D00CD /* ExampleProject */ = {
+		F010D8EF279D882B003D00CD /* Quote Generator */ = {
 			isa = PBXGroup;
 			children = (
-				F010D8D6279D8300003D00CD /* ExampleProjectApp.swift */,
-				F010D8D8279D8300003D00CD /* ContentView.swift */,
-				F010D8DA279D8302003D00CD /* Assets.xcassets */,
-				F010D8DC279D8302003D00CD /* Preview Content */,
+				F010D8F0279D882B003D00CD /* Quote_GeneratorApp.swift */,
+				F010D8FE279D8F3B003D00CD /* Quote.swift */,
+				F010D8F2279D882B003D00CD /* ContentView.swift */,
+				F010D8F4279D882D003D00CD /* Assets.xcassets */,
+				F010D8F6279D882D003D00CD /* Preview Content */,
 			);
-			path = ExampleProject;
+			path = "Quote Generator";
 			sourceTree = "<group>";
 		};
-		F010D8DC279D8302003D00CD /* Preview Content */ = {
+		F010D8F6279D882D003D00CD /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				F010D8DD279D8302003D00CD /* Preview Assets.xcassets */,
+				F010D8F7279D882D003D00CD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,39 +73,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F010D8D2279D8300003D00CD /* ExampleProject */ = {
+		F010D8EC279D882B003D00CD /* Quote Generator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F010D8E1279D8302003D00CD /* Build configuration list for PBXNativeTarget "ExampleProject" */;
+			buildConfigurationList = F010D8FB279D882D003D00CD /* Build configuration list for PBXNativeTarget "Quote Generator" */;
 			buildPhases = (
-				F010D8CF279D8300003D00CD /* Sources */,
-				F010D8D0279D8300003D00CD /* Frameworks */,
-				F010D8D1279D8300003D00CD /* Resources */,
+				F010D8E9279D882B003D00CD /* Sources */,
+				F010D8EA279D882B003D00CD /* Frameworks */,
+				F010D8EB279D882B003D00CD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ExampleProject;
-			productName = ExampleProject;
-			productReference = F010D8D3279D8300003D00CD /* ExampleProject.app */;
+			name = "Quote Generator";
+			productName = "Quote Generator";
+			productReference = F010D8ED279D882B003D00CD /* Quote Generator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F010D8CB279D8300003D00CD /* Project object */ = {
+		F010D8E5279D882B003D00CD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					F010D8D2279D8300003D00CD = {
+					F010D8EC279D882B003D00CD = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = F010D8CE279D8300003D00CD /* Build configuration list for PBXProject "ExampleProject" */;
+			buildConfigurationList = F010D8E8279D882B003D00CD /* Build configuration list for PBXProject "Quote Generator" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +113,43 @@
 				en,
 				Base,
 			);
-			mainGroup = F010D8CA279D8300003D00CD;
-			productRefGroup = F010D8D4279D8300003D00CD /* Products */;
+			mainGroup = F010D8E4279D882B003D00CD;
+			productRefGroup = F010D8EE279D882B003D00CD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F010D8D2279D8300003D00CD /* ExampleProject */,
+				F010D8EC279D882B003D00CD /* Quote Generator */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F010D8D1279D8300003D00CD /* Resources */ = {
+		F010D8EB279D882B003D00CD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F010D8DE279D8302003D00CD /* Preview Assets.xcassets in Resources */,
-				F010D8DB279D8302003D00CD /* Assets.xcassets in Resources */,
+				F010D8F8279D882D003D00CD /* Preview Assets.xcassets in Resources */,
+				F010D8F5279D882D003D00CD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F010D8CF279D8300003D00CD /* Sources */ = {
+		F010D8E9279D882B003D00CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F010D8D9279D8300003D00CD /* ContentView.swift in Sources */,
-				F010D8D7279D8300003D00CD /* ExampleProjectApp.swift in Sources */,
+				F010D8F3279D882B003D00CD /* ContentView.swift in Sources */,
+				F010D8FF279D8F3B003D00CD /* Quote.swift in Sources */,
+				F010D8F1279D882B003D00CD /* Quote_GeneratorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F010D8DF279D8302003D00CD /* Debug */ = {
+		F010D8F9279D882D003D00CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -206,7 +210,7 @@
 			};
 			name = Debug;
 		};
-		F010D8E0279D8302003D00CD /* Release */ = {
+		F010D8FA279D882D003D00CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -261,14 +265,14 @@
 			};
 			name = Release;
 		};
-		F010D8E2279D8302003D00CD /* Debug */ = {
+		F010D8FC279D882D003D00CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ExampleProject/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Quote Generator/Preview Content\"";
 				DEVELOPMENT_TEAM = LZ887YG4E9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -282,7 +286,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "chuljin-Hwang.ExampleProject";
+				PRODUCT_BUNDLE_IDENTIFIER = "chuljin-Hwang.Quote-Generator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -290,14 +294,14 @@
 			};
 			name = Debug;
 		};
-		F010D8E3279D8302003D00CD /* Release */ = {
+		F010D8FD279D882D003D00CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ExampleProject/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Quote Generator/Preview Content\"";
 				DEVELOPMENT_TEAM = LZ887YG4E9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -311,7 +315,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "chuljin-Hwang.ExampleProject";
+				PRODUCT_BUNDLE_IDENTIFIER = "chuljin-Hwang.Quote-Generator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -322,25 +326,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F010D8CE279D8300003D00CD /* Build configuration list for PBXProject "ExampleProject" */ = {
+		F010D8E8279D882B003D00CD /* Build configuration list for PBXProject "Quote Generator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F010D8DF279D8302003D00CD /* Debug */,
-				F010D8E0279D8302003D00CD /* Release */,
+				F010D8F9279D882D003D00CD /* Debug */,
+				F010D8FA279D882D003D00CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F010D8E1279D8302003D00CD /* Build configuration list for PBXNativeTarget "ExampleProject" */ = {
+		F010D8FB279D882D003D00CD /* Build configuration list for PBXNativeTarget "Quote Generator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F010D8E2279D8302003D00CD /* Debug */,
-				F010D8E3279D8302003D00CD /* Release */,
+				F010D8FC279D882D003D00CD /* Debug */,
+				F010D8FD279D882D003D00CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F010D8CB279D8300003D00CD /* Project object */;
+	rootObject = F010D8E5279D882B003D00CD /* Project object */;
 }
