@@ -6,48 +6,45 @@
 //
 
 import SwiftUI
+struct FullScreenModalView: View {
+    @Environment(\.presentationMode) var presentationMode
 
-struct Push1_detailView: View{
-    var message: String
-    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode> //back 버튼을 수행해 주기 위해 제공
     var body: some View {
-        VStack{
-            Text("\(message)")
-                .padding()
-            Button(action: {
-                self.presentationMode.wrappedValue.dismiss()
-            }, label: {
-                Image(systemName: "xmark")
-                    .imageScale(.large)
-                    .padding()
-            })
-                .accentColor(.red)
-            Spacer()
+        ZStack {
+            Color.primary.edgesIgnoringSafeArea(.all)
+            Button("Dismiss Modal") {
+                presentationMode.wrappedValue.dismiss()
+            }
         }
-        .navigationBarHidden(true) //네비게이션으로 백 시켜주는 버튼을 감추기
     }
 }
-
 struct ContentView: View {
+    @State private var showsheetview = false
+    @State private var showsheetview2 = false
     var body: some View {
         HStack {
             NavigationView{
                 VStack(spacing:100){
                     NavigationLink(destination: Push1_detailView(message: "전달할 메세지 작성"), label: {
-                        Text("Push 1")
+                        Text("Push 1 with navigationView")
                     })
                         
                     Button(action: {
-                        
+                        self.showsheetview.toggle()
                     }, label: {
-                        Text("Push 2")
+                        Text("Push 2 with sheet")
                     })
+                        .sheet(isPresented: $showsheetview){
+                            Push2_detailView(showsheetview: $showsheetview)
+                        }
                         .padding()
-                    Button(action: {
-                        
-                    }, label: {
-                        Text("Push 3")
-                    })
+                    
+                    
+                    Button("Present!") {
+                        self.showsheetview2.toggle()
+                    }
+                    .fullScreenCover(isPresented: $showsheetview2, content: FullScreenModalView.init)
+                    
                         .padding()
                     Button(action: {
                         
