@@ -8,11 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    @Binding var textContent : String
     var body: some View {
         NavigationView{
             ZStack{
                 Color.black
-                Text("Label")
+                Text(textContent)
                     .font(.system(size: 100))
                     .foregroundColor(.yellow)
                     .fontWeight(.bold)
@@ -26,6 +27,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(textContent: .constant("aaa") )
     }
 }

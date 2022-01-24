@@ -11,7 +11,7 @@ import SwiftUI
 struct LEDBoardApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(textContent: .constant("LED"))
         }
     }
 }
